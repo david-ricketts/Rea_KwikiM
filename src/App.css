@@ -1,39 +1,45 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Titian One', cursive;
+}
+.jumbotron{
+  background-image: linear-gradient(to bottom right, #3e4444, #c1946a)
+}
+nav  {
+  background-color: #405d27 !important;;
+}
+nav a {
+  color: white;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+#accordion .card-header {
+  background-color: #3e4444;
+}
+#accordion button {
+
+  color: white
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer {
+  background: #405d27;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+footer .card {
+  background: #405d27;
+  color: white;
+  border-color: #405d27;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+footer i {
+  color: white;
 }
+
+.light-green {
+  background-color: #82b74b;
+  color: white;
+}
+
