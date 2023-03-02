@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Anton&family=Titan+One&display=swap);
+
 body {
   font-family: 'Titian One', cursive;
 }
@@ -13,7 +15,7 @@ nav a {
 }
 
 h1 {
-  color: white;
+  color: rgb(158, 21, 21);
 }
 
 #accordion .card-header {

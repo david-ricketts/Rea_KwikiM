@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/Homepage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
