@@ -6,22 +6,25 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
+import reaBrownieImg from "../images/Brownie.jpg"
+import reaFireImg from "../images/Fire_Wood.png"
+import reaFruitImg from "../images/Fruit_Soda.jpg"
 
 const items = [
   {
-    src: 'https://picsum.photos/id/123/1200/400',
+    src: reaBrownieImg,
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,
   },
   {
-    src: 'https://picsum.photos/id/456/1200/400',
+    src: reaFireImg,
     altText: 'Slide 2',
     caption: 'Slide 2',
     key: 2,
   },
   {
-    src: 'https://picsum.photos/id/678/1200/400',
+    src: reaFruitImg,
     altText: 'Slide 3',
     caption: 'Slide 3',
     key: 3,
@@ -55,8 +58,9 @@ function Jumbotron(args) {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
+        style={{textAlign: 'center'}}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} style={{width:1200, display:'inline-block'}} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
