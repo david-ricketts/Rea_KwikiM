@@ -58,9 +58,9 @@ function Jumbotron(args) {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
-        style={{textAlign: 'center'}}
+        style={{textAlign: 'center' }}
       >
-        <img src={item.src} alt={item.altText} style={{width:1200, display:'inline-block'}} />
+        <img src={item.src} alt={item.altText} style={{height:'50vh', display:'inline-block'}} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}

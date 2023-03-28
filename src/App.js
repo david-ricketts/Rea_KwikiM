@@ -7,10 +7,13 @@ import ConsessionDetailPage from './pages/ConsessionDetailPage';
 import ConsessionDirectoryPage from './pages/ConsessionDirectoryPage';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Footer from './features/HomePage/Footer';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import { Col, Row } from 'reactstrap';
 function App() {
   return (
     <div className='App'>
+      <Header />
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/contact' element={<ContactPage />}></Route>
@@ -18,10 +21,12 @@ function App() {
         <Route path='/Consession' element={<ConsessionDirectoryPage />}></Route>
         <Route path='/Consessionpage' element={<ConsessionDetailPage />}></Route>
       </Routes>
-      <div>
-        <Footer />
+      <Col>
+        <Row>
+          <Footer />
+        </Row>
+      </Col>
       </div>
-    </div>
   );
 }
 

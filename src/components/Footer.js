@@ -23,7 +23,9 @@ return(
                 </CardHeader>
                 <CardBody>
                     <CardText>
-                        With supporting text below as a natural lead-in to additional content.
+                        Mon-Thur: 6-11<br />
+                        Fri-Sat: 5-12 <br />
+                        Sun:     8-10 
                     </CardText>
                 </CardBody>
             </Card>
