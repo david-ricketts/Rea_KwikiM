@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/Homepage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import ConsessionDetailPage from './pages/ConsessionDetailPage';
-import ConsessionDirectoryPage from './pages/ConsessionDirectoryPage';
+import ConcessionDetailPage from './pages/ConcessionDetailPage';
+import ConcessionDirectoryPage from './pages/ConcessionDirectoryPage';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
@@ -18,8 +18,8 @@ function App() {
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/contact' element={<ContactPage />}></Route>
         <Route path='/about' element={<AboutPage />}></Route>
-        <Route path='/Consession' element={<ConsessionDirectoryPage />}></Route>
-        <Route path='/Consessionpage' element={<ConsessionDetailPage />}></Route>
+        <Route path='/Concession' element={<ConcessionDirectoryPage />}></Route>
+        <Route path='/Concessionpage' element={<ConcessionDetailPage />}></Route>
       </Routes>
       <Col>
         <Row>

@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 
-const ConsessionDirectoryPage = () => {
+const ConcessionDirectoryPage = () => {
     return (
         <Container>
             <h1> Consession page.</h1>
@@ -8,4 +8,4 @@ const ConsessionDirectoryPage = () => {
     )
 }
 
-export default ConsessionDirectoryPage;
+export default ConcessionDirectoryPage;

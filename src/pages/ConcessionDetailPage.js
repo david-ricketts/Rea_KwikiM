@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 
-const ConsessionDetailPage = () => {
+const ConcessionDetailPage = () => {
     return (
         <Container>
             <h1> Detail page.</h1>
@@ -8,4 +8,4 @@ const ConsessionDetailPage = () => {
     )
 }
 
-export default ConsessionDetailPage;
+export default ConcessionDetailPage;
