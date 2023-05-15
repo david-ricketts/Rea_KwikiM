@@ -5,7 +5,7 @@ import Jumbotron from "../features/HomePage/Jumbotron";
 const HomePage = () => {
     return (
         <Container>
-            <Jumbotron />
+            <Jumbotron className="Jumbotron" />
             <h1> Home page.</h1>
         </Container>
     )

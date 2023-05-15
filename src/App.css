@@ -36,6 +36,10 @@ footer .card {
   border-color: #405d27;
 }
 
+.Jumbotron {
+  border:rgb(158, 21, 21)
+}
+
 footer i {
   color: white;
 }
