@@ -31,11 +31,11 @@ export const SNACKS = [
     },
     {
         id: 3,
-        name: 'f',
+        name: 'Muffin',
         image: muffinImg,
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Soft, sweet, and fruity"
     }
 ];
