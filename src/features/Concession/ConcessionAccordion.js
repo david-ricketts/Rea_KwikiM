@@ -5,9 +5,13 @@ import {
   AccordionHeader,
   AccordionItem,
 } from 'reactstrap';
-
+import ConcessionsList from './ConcessionsList';
+import { selectAllConcessions } from './concessionsSlice';
 
 const ConcessionsAccordion = () => {
+
+    const sections = selectAllConcessions();
+    console.log(sections)
     const [open, setOpen] = useState('1');
     const toggle = (id) => {
         if (open === id) {
@@ -23,7 +27,7 @@ const ConcessionsAccordion = () => {
             <AccordionItem>
                 <AccordionHeader targetId="1">Accordion Item 1</AccordionHeader>
                     <AccordionBody accordionId="1">
-                        <ConcessionsList meals={meals}/>
+                        <ConcessionsList sections={sections}/>
                     </AccordionBody>
                 </AccordionItem>
             <AccordionItem>

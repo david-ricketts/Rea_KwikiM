@@ -1,16 +1,16 @@
 import { Col, Row } from "reactstrap";
-
-
+import ConcessionsCard from "./ConcessionsCard";
 const ConcessionsList = (props) => {
-    const { section } = props;
-    console.log({section})
+    console.log({props});
+    const {sections} = props
 
     return (
         <Row className="ms-auto">
-            {section.map((item) => {
+            {sections.map((item) => {
+                console.log(item)
                 return (
                     <Col md='4' key={item.id}>
-                        <ConsessionCard item={item} />
+                        <ConcessionsCard item={item} />
                     </Col>
                 )
             })}

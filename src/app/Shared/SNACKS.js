@@ -1,7 +1,7 @@
 import chipImg from '../assets/img/Chip.png';
 import cookieImg from '../assets/img/Cookies.jpg';
 import fryImg from '../assets/img/Fries.jpg';
-import muffinImg from '../assets/img/redux-woods.jpg';
+import muffinImg from '../assets/img/Muffin.jpg';
 
 export const SNACKS = [
     {
