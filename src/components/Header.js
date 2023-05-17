@@ -1,4 +1,5 @@
 import React from 'react';
+import KMLogo from '../app/assets/img/Screen Shot 2022-06-26 at 8.51.36 PM.png'
 import {
   Collapse,
   Navbar,
@@ -6,11 +7,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink
+ } from 'reactstrap';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -30,7 +28,17 @@ export default class Header extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/">
+          <img
+            alt="logo"
+            src={KMLogo}
+            style={{
+              height: 40,
+              width: 115
+            }}
+          />
+
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

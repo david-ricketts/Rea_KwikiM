@@ -7,7 +7,6 @@ const ConcessionsList = (props) => {
     return (
         <Row className="ms-auto">
             {sections.map((item) => {
-                console.log(item)
                 return (
                     <Col md='4' key={item.id}>
                         <ConcessionsCard item={item} />

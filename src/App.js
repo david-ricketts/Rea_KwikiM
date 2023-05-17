@@ -20,7 +20,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />}></Route>
         <Route path='/about' element={<AboutPage />}></Route>
         <Route path='/Concession' element={<ConcessionDirectoryPage />}></Route>
-        <Route path='/Concession/:itemId' element={<ConcessionDetailPage />}></Route>
+        <Route path='/Concession/:snackId' element={<ConcessionDetailPage />}></Route>
       </Routes>
       <Col>
         <Row>

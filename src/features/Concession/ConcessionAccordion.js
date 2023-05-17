@@ -11,7 +11,6 @@ import { selectAllConcessions } from './concessionsSlice';
 const ConcessionsAccordion = () => {
 
     const sections = selectAllConcessions();
-    console.log(sections)
     const [open, setOpen] = useState('1');
     const toggle = (id) => {
         if (open === id) {
