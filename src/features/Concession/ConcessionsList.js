@@ -1,7 +1,6 @@
 import { Col, Row } from "reactstrap";
 import ConcessionsCard from "./ConcessionsCard";
 const ConcessionsList = (props) => {
-    console.log({props});
     const {sections} = props
 
     return (

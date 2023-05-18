@@ -10,27 +10,63 @@ import saladImg from'../assets/img/Salad.jpg'
 import pizzaImg from '../assets/img/pexels-cottonbro-3944315.jpg'
 import appleImg from '../assets/img/Apples.png'
 import brownieImg from '../assets/img/Brownie.jpg'
-import cokeImg from '../assets/img/coke'
+import cokeImg from '../assets/img/Coke.jpg'
+import drPepperImg from '../assets/img/Dr.Pepper.jpg'
+import fruitSodaImg from '../assets/img/Fruit_Soda.jpg'
 
 export const SNACKS = [
     {
         id: 0,
         name: 'Burger',
-        image: chipImg,
+        image: burgerImg,
         quantity: 12,
         description:
             'Hot, juicy, and beefy'
     },
     {
         id: 1,
-        name: 'Cookies',
-        image: cookieImg,
+        name: 'Panini',
+        image: paniniImg,
         quantity: 12,
         description:
             'Warm, chewy, and melting'
     },
     {
         id: 2,
+        name: 'Ultimate',
+        image: ultimateImg,
+        elevation: 2901,
+        quantity: 13,
+        description:
+            'Hot, crisp, fluffy'
+    },
+    {
+        id: 3,
+        name: 'Wings',
+        image: wingsImg,
+        elevation: 42,
+        featured: true,
+        description:
+            "Soft, sweet, and fruity"
+    },
+    {
+        id: 4,
+        name: 'Salad',
+        image: saladImg,
+        quantity: 12,
+        description:
+            'Crispy, crunchy, and delicious'
+    },
+    {
+        id: 5,
+        name: 'Pizza',
+        image: pizzaImg,
+        quantity: 12,
+        description:
+            'Warm, chewy, and melting'
+    },
+    {
+        id: 6,
         name: 'Fries',
         image: fryImg,
         elevation: 2901,
@@ -39,46 +75,67 @@ export const SNACKS = [
             'Hot, crisp, fluffy'
     },
     {
-        id: 3,
+        id: 7,
         name: 'Muffin',
         image: muffinImg,
-        elevation: 42,
-        featured: true,
+        quantity: 12,
         description:
             "Soft, sweet, and fruity"
     },
     {
-        id: 0,
-        name: 'Chips',
+        id: 8,
+        name: 'chip',
         image: chipImg,
         quantity: 12,
         description:
             'Crispy, crunchy, and delicious'
     },
     {
-        id: 1,
-        name: 'Cookies',
+        id: 9,
+        name: 'Cookie',
         image: cookieImg,
         quantity: 12,
         description:
             'Warm, chewy, and melting'
     },
     {
-        id: 2,
-        name: 'Fries',
-        image: fryImg,
-        elevation: 2901,
+        id: 10,
+        name: 'Brownie',
+        image: brownieImg,
+        quantity: 12,
+        description:
+            'Warm, chewy, and melting'
+    },
+    {
+        id: 11,
+        name: 'Apple',
+        image: appleImg,
         quantity: 13,
         description:
             'Hot, crisp, fluffy'
     },
     {
-        id: 3,
-        name: 'Muffin',
-        image: muffinImg,
-        elevation: 42,
-        featured: true,
+        id: 12,
+        name: 'Coke',
+        image: cokeImg,
+        quantity: 12,
         description:
             "Soft, sweet, and fruity"
+    },
+    {
+        id: 13,
+        name: 'Dr. Pepper',
+        image: drPepperImg,
+        quantity: 12,
+        description:
+            'Crispy, crunchy, and delicious'
+    },
+    {
+        id: 14,
+        name: 'Fruit Soda',
+        image: fruitSodaImg,
+        quantity: 12,
+        description:
+            'Warm, chewy, and melting'
     }
 ];

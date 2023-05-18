@@ -40,14 +40,14 @@ return(
                 </CardHeader>
                 <CardBody>
                     <CardText>
-                        <p>
+                        
                             123 Main Street <br />
                             Pleasentville, USA, 10000 <br /> 
-                        </p>    
-                        <p>
-                            123 Main Street <br />
-                            Pleasentville, USA, 10000 <br /> 
-                        </p>    
+                        
+                        
+                            123 Broadway <br />
+                            Somewhere, USA, 90000 <br /> 
+                        
                     </CardText>
                 </CardBody>
             </Card>
@@ -62,13 +62,13 @@ return(
                 </CardHeader>
                 <CardBody>
                     <CardText>
-                    <p>
+                    
                         Main Office: (100) 555-1234 <br />
-                    </p>    
+                    
 
-                    <p>
+                    
                         office@KwikiMart.com
-                    </p>
+                
                     </CardText>
                 </CardBody>
             </Card>
