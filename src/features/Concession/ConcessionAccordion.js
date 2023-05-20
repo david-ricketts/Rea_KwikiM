@@ -24,29 +24,21 @@ const ConcessionsAccordion = () => {
         <div>
         <Accordion open={open} toggle={toggle}>
             <AccordionItem>
-                <AccordionHeader targetId="1">Accordion Item 1</AccordionHeader>
+                <AccordionHeader targetId="1">Meals</AccordionHeader>
                     <AccordionBody accordionId="1">
-                        <ConcessionsList sections={sections}/>
+                        <ConcessionsList sections={sections.entres}/>
                     </AccordionBody>
                 </AccordionItem>
             <AccordionItem>
-                <AccordionHeader targetId="2">Accordion Item 2</AccordionHeader>
+                <AccordionHeader targetId="2">Snacks</AccordionHeader>
                 <AccordionBody accordionId="2">
-                    <strong>This is the second item&#39;s accordion body.</strong>
-                    You can modify any of this with custom CSS or overriding our default
-                    variables. It&#39;s also worth noting that just about any HTML can
-                    go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
+                    <ConcessionsList sections={sections.snacks}/>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
-                <AccordionHeader targetId="3">Accordion Item 3</AccordionHeader>
+                <AccordionHeader targetId="3">Drinks</AccordionHeader>
                 <AccordionBody accordionId="3">
-                    <strong>This is the third item&#39;s accordion body.</strong>
-                    You can modify any of this with custom CSS or overriding our default
-                    variables. It&#39;s also worth noting that just about any HTML can
-                    go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
+                    <ConcessionsList sections={sections.drinks} />
                 </AccordionBody>
             </AccordionItem>
         </Accordion>
