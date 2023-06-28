@@ -6,5 +6,5 @@ export const selectAllConcessions = () => {
 }
 
 export const selectSnackById = (id) => {
-    return SNACKS.find((snack) => snack.id === parseInt(id)) 
+    SNACKS.find((snack) => snack.id === parseInt(id)) 
 }

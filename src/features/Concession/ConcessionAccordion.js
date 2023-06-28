@@ -26,19 +26,19 @@ const ConcessionsAccordion = () => {
             <AccordionItem>
                 <AccordionHeader targetId="1">Meals</AccordionHeader>
                     <AccordionBody accordionId="1">
-                        <ConcessionsList sections={sections.entres}/>
+                        <ConcessionsList sections={sections}/>
                     </AccordionBody>
                 </AccordionItem>
             <AccordionItem>
                 <AccordionHeader targetId="2">Snacks</AccordionHeader>
                 <AccordionBody accordionId="2">
-                    <ConcessionsList sections={sections.snacks}/>
+                    <ConcessionsList sections={sections}/>
                 </AccordionBody>
             </AccordionItem>
             <AccordionItem>
                 <AccordionHeader targetId="3">Drinks</AccordionHeader>
                 <AccordionBody accordionId="3">
-                    <ConcessionsList sections={sections.drinks} />
+                    <ConcessionsList sections={sections} section="drink" />
                 </AccordionBody>
             </AccordionItem>
         </Accordion>

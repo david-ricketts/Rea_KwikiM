@@ -5,7 +5,7 @@ const ConcessionDetail = ({snack}) => {
     console.log(image)
     return(
         <Container>
-            <img src={image} />
+            <img width={800} src={image} alt={name} className="mx-auto"/>
             <p>{description}</p>
         </Container>
     )
